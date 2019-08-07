@@ -9,7 +9,8 @@
     "compile": "tsc",
     "compile:watch": "tsc -w",
     "test:watch": "concurrently --kill-others \"npm run compile:watch\" \"npm run jasmine:watch\"",
-    "lint": "tslint -c tslint.json 'src/**/*.ts' 'spec/**/*.ts'"
+    "lint": "tslint -c tslint.json 'src/**/*.ts' 'spec/**/*.ts'",
+    "postinstall": "npm run compile"
   },
   "author": "alxlchnr",
   "license": "ISC",
