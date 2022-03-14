@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jasmine --watch",
-    "lint": "eslint -c .eslintrc.js --ext .ts ./",
-    "postinstall": "npm run compile"
+    "lint": "eslint -c .eslintrc.js --ext .ts ./"
   },
   "author": "alxlchnr",
   "license": "ISC",
