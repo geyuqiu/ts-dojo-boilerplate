@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "test:watch": "jasmine -w",
     "jasmine:watch": "jasmine-node dist/spec --autotest --watch dist",
     "compile": "tsc",
     "compile:watch": "tsc -w",
